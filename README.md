@@ -1,3 +1,6 @@
+
+## Working Demo of TBot
+https://github.com/user-attachments/assets/bb8466b7-4d77-4287-b5e6-e80c13a4f784
 # TBot
 A basic trading bot implemented in C++.
 
@@ -28,6 +31,8 @@ git clone https://github.com/sleepingeight/TBot.git
 cd TBot
 
 # Clone WebSocketPP library
+
+
 git clone https://github.com/zaphoyd/websocketpp.git
 ```
 
@@ -45,3 +50,5 @@ g++ -o trading_bot trading_bot.cpp -I./websocketpp -lboost_system -lpthread -ljs
 - **Port Configuration**: Before running, ensure to modify the port numbers to any free port numbers on your system:
   - Port number in `market_simulator.cpp` (line 88)
   - Port number in `trading_bot.cpp` (line 165)
+
+#
